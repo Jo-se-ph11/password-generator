@@ -12,15 +12,21 @@
     <div class="container">
         <div class="section-one">
             <h1>
-                <span>Generate a</span> <br>random password
+                <span id="first">Generate a</span> <br><span id="second">random password</span>
             </h1>
             <h3>Never use an insecure password again</h3>
-            <button id="btn">Generate passwords</button>
+            <button id="btn" onclick="generatePassword()">Generate passwords</button>
+            <div class="underline"></div>
+            <div class="section-two">
+                <div class=" display" id="display1">@@</div>
+                <div class="display" id="display2 ">password2</div>
+    
+            </div>
+            
         </div>
-        <div class="section-two">
-            <div class="display1 display">password1</div>
-            <div class="display2 display">password2</div>
-        </div>
+       
+        
+
     </div>
 </body>
 </html>
